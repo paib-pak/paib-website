@@ -136,9 +136,6 @@ export function Header({ user }: HeaderProps) {
               <Button variant="ghost" asChild>
                 <Link href="/auth/signin">Sign In</Link>
               </Button>
-              <Button asChild>
-                <Link href="/auth/signup">Sign Up</Link>
-              </Button>
             </div>
           )}
 
@@ -191,11 +188,6 @@ export function Header({ user }: HeaderProps) {
                         Sign In
                       </Link>
                     </Button>
-                    <Button asChild className="w-full justify-start">
-                      <Link href="/auth/signup" onClick={() => setIsOpen(false)}>
-                        Sign Up
-                      </Link>
-                    </Button>
                   </div>
                 )}
               </div>
@@ -206,3 +198,4 @@ export function Header({ user }: HeaderProps) {
     </header>
   )
 }
+

@@ -2,7 +2,7 @@ import { redirect } from "next/navigation"
 import { getServerSession } from "next-auth"
 import { authOptions } from "@/lib/auth/config"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Users, FolderOpen, BookOpen, Briefcase, MessageSquare, Settings } from "lucide-react"
+import { Users, FolderOpen, BookOpen, Briefcase, MessageSquare, Settings, UserPlus } from "lucide-react"
 import Link from "next/link"
 import { getAdminStats } from "@/lib/actions/admin"
 
@@ -79,6 +79,20 @@ export default async function AdminDashboard() {
 
         {/* Quick Actions */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <Link href="/auth/signup">
+            <Card className="bg-slate-800/50 border-slate-700 hover:border-purple-500/50 transition-all duration-300 cursor-pointer group">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-3 text-white group-hover:text-purple-400 transition-colors">
+                  <UserPlus className="w-6 h-6" />
+                  Create User Account
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-slate-400">Create new user accounts for developers and team members</p>
+              </CardContent>
+            </Card>
+          </Link>
+
           <Link href="/admin/users">
             <Card className="bg-slate-800/50 border-slate-700 hover:border-purple-500/50 transition-all duration-300 cursor-pointer group">
               <CardHeader>
