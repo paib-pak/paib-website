@@ -31,6 +31,11 @@ const managementTeam = [
     image: "/gallery/gallery5.jpeg",
     name: "Bashir Ahmed Azad",
     position: "Director Public & Social Affairs"
+  },
+  {
+    image: "/gallery/gallery6.jpeg",
+    name: "Ch Muhammad Talha",
+    position: "Director Finance"
   }
 ]
 
