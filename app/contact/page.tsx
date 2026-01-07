@@ -31,8 +31,8 @@ export default function ContactPage() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-slate-300">info@paib.gov.pk</p>
-                  <p className="text-slate-300">support@paib.gov.pk</p>
+                  <p className="text-slate-300">info@paib.pk</p>
+                  <p className="text-slate-300">support@paib.pk</p>
                 </CardContent>
               </Card>
 
@@ -44,8 +44,7 @@ export default function ContactPage() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-slate-300">+92 51 123 4567</p>
-                  <p className="text-slate-300">+92 51 765 4321</p>
+                  <p className="text-slate-300">+92 333 7414152</p>
                 </CardContent>
               </Card>
 
