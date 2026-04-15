@@ -78,7 +78,7 @@ async function seed() {
   // Create hero slides
   await db.insert(heroSlides).values([
     {
-      title: "Pakistan Artificial Intelligence Builders",
+      title: "Pak Artificial Intelligence & Blockchain",
       subtitle: "Leading Pakistan into the AI revolution with cutting-edge solutions and innovation",
       ctaLabel: "Explore Projects",
       ctaHref: "/projects",

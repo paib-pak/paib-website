@@ -57,7 +57,7 @@ export default function ContactPage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-300">
-                    Pakistan Artificial Intelligence Builders
+                    Pak Artificial Intelligence & Blockchain
                     <br />
                     Constitution Avenue
                     <br />

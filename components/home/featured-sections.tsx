@@ -57,7 +57,7 @@ export function FeaturedSections({ projects, services, courses }: FeaturedSectio
             About PAIB
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground mb-6 sm:mb-8 text-pretty">
-            Pakistan Artificial Intelligence Builders is at the forefront of AI innovation, developing cutting-edge
+            Pak Artificial Intelligence & Blockchain is at the forefront of AI innovation, developing cutting-edge
             solutions that transform businesses and empower the next generation of AI professionals.
           </p>
           <Button asChild size="lg">
