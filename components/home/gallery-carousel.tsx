@@ -8,8 +8,8 @@ import Image from "next/image"
 // Management team data with images and information
 const managementTeam = [
   {
-    image: "/gallery/gallery4.jpeg",
-    name: "Squadron Leader(R) Mohammad Iqbal Khan",
+    image: "/gallery/gallery1.jpeg",
+    name: "Ch Tariq Mehmood Proya",
     position: "Director"
   },
   {
