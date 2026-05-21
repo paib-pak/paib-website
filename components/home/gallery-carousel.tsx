@@ -15,7 +15,7 @@ const managementTeam = [
   {
     image: "/gallery/gallery2.jpeg",
     name: "Mian Muhammad Asif Langrah",
-    position: "Managing Director/Director Trainings & Program"
+    position: "AI-Instructor/ Trainer"
   },
   {
     image: "/gallery/gallery3.jpeg",
