@@ -10,17 +10,32 @@ const managementTeam = [
   {
     image: "/gallery/gallery1.jpeg",
     name: "Ch Tariq Mehmood Proya",
-    position: "Director"
+    position: "Chairman/Executive Director"
   },
   {
     image: "/gallery/gallery2.jpeg",
     name: "Mian Muhammad Asif Langrah",
-    position: "Director"
+    position: "Managing Director/Director Trainings & Program"
+  },
+  {
+    image: "/gallery/gallery3.jpeg",
+    name: "Rimsha Tariq",
+    position: "Director PR & Coordination"
+  },
+  {
+    image: "/gallery/gallery4.jpeg",
+    name: "Squadron Leader(R) Mohammad Iqbal Khan",
+    position: "Director Admin & HR"
   },
   {
     image: "/gallery/gallery5.jpeg",
     name: "Bashir Ahmed Azad",
-    position: "Director"
+    position: "Director Public & Social Affairs"
+  },
+  {
+    image: "/gallery/gallery6.jpeg",
+    name: "Ch Muhammad Talha",
+    position: "Director Finance"
   }
 ]
 
